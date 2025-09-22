@@ -34,10 +34,8 @@ export default function Hero({ className = '' }: HeroProps) {
           <div className="space-y-3 sm:space-y-4">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               안녕하세요,{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                Masocampus2
-              </span>
-              입니다
+              <span className="text-green-600">Masocampus2</span>
+              {' '}입니다
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 font-medium">
               웹 기획자 & 디지털 크리에이터
